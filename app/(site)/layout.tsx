@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Yann DIPITA's Portfolio",
   description: "A personal portfolio site built with Sanity and Next.js",
   openGraph: {
-    images: "add-your-open-graph-image-url-here",
+    images: "ios-quiz-app",
   },
 };
 
