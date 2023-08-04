@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${project.name} | Project`,
     description: project.tagline,
     openGraph: {
-      images: project.coverImage?.image || "add-a-fallback-project-image-here",
+      images: project.coverImage?.image || "project.png",
       title: project.name,
       description: project.tagline,
     },
