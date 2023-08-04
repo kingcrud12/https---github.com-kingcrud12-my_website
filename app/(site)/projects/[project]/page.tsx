@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${project.name} | Project`,
     description: project.tagline,
     openGraph: {
-      images: project.coverImage?.image || "public/ios-quiz-app.png-quiz-app.png",
+      images: project.coverImage?.image || "https://letcreateanapp.com/wp-content/uploads/2022/03/Quiz-App-in-Swift.jpg",
       title: project.name,
       description: project.tagline,
     },

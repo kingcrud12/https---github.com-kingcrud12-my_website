@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Yann DIPITA's Portfolio",
   description: "A personal portfolio site built with Sanity and Next.js",
   openGraph: {
-    images: "public/ios-quiz-app.pngs-quiz-app",
+    images: "https://letcreateanapp.com/wp-content/uploads/2022/03/Quiz-App-in-Swift.jpg",
   },
 };
 
