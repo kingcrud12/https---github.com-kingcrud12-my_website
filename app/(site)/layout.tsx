@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Yann DIPITA's Portfolio",
-  description: "A personal portfolio site built with Sanity and Next.js",
+  description: "Yann DIPITA portfolio",
   openGraph: {
     images: "https://letcreateanapp.com/wp-content/uploads/2022/03/Quiz-App-in-Swift.jpg",
   },
