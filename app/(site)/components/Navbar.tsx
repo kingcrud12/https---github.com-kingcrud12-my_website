@@ -7,7 +7,7 @@ export default function Navbar() {
     <header className="py-6 md:px-16 px-6 border-b border-zinc-800 z-30 md:mb-28 mb-20">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         <Link href="/">
-          <div>Let's work together! </div>
+          <div>Let's work together!</div>
         </Link>
         <nav>
           <ul className="flex items-center gap-x-8">
