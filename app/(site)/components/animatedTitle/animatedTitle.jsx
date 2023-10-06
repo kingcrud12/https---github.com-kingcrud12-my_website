@@ -7,7 +7,7 @@ function AnimatedTitle() {
   const [text] = useTypewriter({
     words: ["web and mobile developer"],
     loop: true,
-    typeSpeed: 30,
+    typeSpeed: 15,
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
