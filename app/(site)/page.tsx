@@ -2,9 +2,11 @@ import { getProfile } from "@/sanity/sanity.query";
 import type { ProfileType } from "@/types";
 import HeroSvg from "./icons/HeroSVg";
 import Job from "./components/job";
+import AnimatedTitle from "./components/animatedTitle/animatedTitle"
 
 export default async function Home() {
   const profile: ProfileType[] = await getProfile();
+  
 
   return (
     <main className="max-w-7xl mx-auto lg:px-16 px-6">
@@ -13,7 +15,7 @@ export default async function Home() {
           profile.map((data) => (
             <div key={data._id} className="lg:max-w-2xl max-w-2xl">
               <h1 className="text-3xl font-bold tracking-tight sm:text-5xl mb-6 lg:leading-[3.7rem] leading-tight lg:min-w-[700px] min-w-full">
-                {data.headline}
+                <AnimatedTitle />
               </h1>
               <p className="text-base text-zinc-400 leading-relaxed">
                 {data.shortBio}
