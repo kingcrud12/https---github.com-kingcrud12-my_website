@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className}bg-gradient-to-r from-[#e66465] to-[#9198e5] text-white`}
+        className={`${inter.className} bg-gradient-to-r from-[#e66465] to-[#9198e5] text-white`}
       >
         <Navbar />
         {children}

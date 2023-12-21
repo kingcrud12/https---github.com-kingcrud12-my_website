@@ -2,11 +2,10 @@ import { getProfile } from "@/sanity/sanity.query";
 import type { ProfileType } from "@/types";
 import HeroSvg from "./icons/HeroSVg";
 import Job from "./components/job";
-import AnimatedTitle from "./components/animatedTitle/animatedTitle"
+import AnimatedTitle from "./components/animatedTitle/animatedTitle";
 
 export default async function Home() {
   const profile: ProfileType[] = await getProfile();
-  
 
   return (
     <main className="max-w-7xl mx-auto lg:px-16 px-6">
