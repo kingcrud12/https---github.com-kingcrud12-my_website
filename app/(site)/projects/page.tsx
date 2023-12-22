@@ -10,14 +10,14 @@ export default async function Project() {
     <main className="max-w-7xl mx-auto md:px-16 px-6">
       <section className="max-w-2xl mb-16">
         <h1 className="text-3xl font-bold tracking-tight sm:text-5xl mb-6 lg:leading-[3.7rem] leading-tight">
-          Featured projects I&apos;ve built over the years
+          Projets que j&apos;ai construit au fil du temps.
         </h1>
         <p className="text-base text-zinc-400 leading-relaxed">
-          I&apos;ve worked on tons of little projects over the years but these
-          are the ones that I&apos;m most proud of. Many of them are
-          open-source, so if you see something that piques your interest, check
-          out the code and contribute if you have ideas for how it can be
-          improved.
+          J&apos;ai J’ai travaillé sur des tonnes de petits projets au fil des
+          ans mais ce sont ceux dont je suis le plus fier. Beaucoup d’entre eux
+          sont open-source, donc si vous voyez quelque chose qui suscite votre
+          intérêt, consultez le code et contribuez si vous avez des idées sur la
+          façon dont il peut être amélioré.
         </p>
       </section>
 
