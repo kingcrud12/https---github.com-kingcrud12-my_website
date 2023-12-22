@@ -8,7 +8,9 @@ export default async function Job() {
   return (
     <section className="mt-32">
       <div className="mb-16">
-        <h2 className="font-semibold text-4xl mb-4">Work Experience</h2>
+        <h2 className="font-semibold text-4xl mb-4">
+          Expériences professionnelles
+        </h2>
       </div>
 
       <div className="flex flex-col gap-y-12">

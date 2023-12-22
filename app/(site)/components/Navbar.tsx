@@ -22,7 +22,7 @@ export default function Navbar() {
                 href="/projects"
                 className="hover:text-purple-400 duration-300"
               >
-                Mes Projets
+                Mes projets
               </Link>
             </li>
           </ul>
