@@ -5,7 +5,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'; // Assurez-vous
 
 function AnimatedTitle() {
   const [text] = useTypewriter({
-    words: ["web and mobile developer"],
+    words: ["Développeur web & mobile"],
     loop: true,
     typeSpeed: 15,
     deleteSpeed: 10,
