@@ -13,9 +13,9 @@ export default async function Project() {
           Projets que j&apos;ai construit au fil du temps.
         </h1>
         <p className="text-base text-zinc-400 leading-relaxed">
-          J&apos;ai J’ai travaillé sur des tonnes de petits projets au fil des
-          ans mais ce sont ceux dont je suis le plus fier. Beaucoup d’entre eux
-          sont open-source, donc si vous voyez quelque chose qui suscite votre
+          J&apos;ai travaillé sur des tonnes de petits projets au fil des ans
+          mais ce sont ceux dont je suis le plus fier. Beaucoup d’entre eux sont
+          open-source, donc si vous voyez quelque chose qui suscite votre
           intérêt, consultez le code et contribuez si vous avez des idées sur la
           façon dont il peut être amélioré.
         </p>
