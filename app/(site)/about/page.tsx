@@ -34,13 +34,14 @@ export default async function About() {
                     quality={100}
                     alt={data.profileImage.alt}
                   />
-
-                  <a
-                    href={`${data.resumeURL}?dl=${data.fullName}_resume`}
-                    className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center cursor-cell font-medium"
-                  >
-                    <BiFile className="text-base" /> Download Resumé
-                  </a>
+                  <li data-test="download">
+                    <a
+                      href={`${data.resumeURL}?dl=${data.fullName}_resume`}
+                      className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center cursor-cell font-medium"
+                    >
+                      <BiFile className="text-base" /> Download Resumé
+                    </a>
+                  </li>
                 </div>
 
                 <ul>
