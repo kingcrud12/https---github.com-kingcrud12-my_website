@@ -1,6 +1,6 @@
 describe('template spec', () => {
   beforeEach("Testing homepage", ()=>{
-    cy.visit(Cypress.env("baseUrl"))
+    cy.visit('http://localhost:3000')
   })
   it('passes', () => {
     cy.get("header").contains("Lets work together")
