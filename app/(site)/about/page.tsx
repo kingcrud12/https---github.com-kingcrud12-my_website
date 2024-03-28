@@ -15,8 +15,9 @@ export default async function About() {
             <section className="grid lg:grid-cols-2 grid-cols-1 gap-x-6 justify-items-center">
               <div className="order-2 lg:order-none">
                 <h1 className="lg:text-5xl text-4xl lg:leading-tight basis-1/2 font-bold mb-8">
-                  Hello, Je m&apos;appelle {data.fullName}. J&apos;habite à
-                  Paris, C&apos;est d&apos;ici que je design le future.
+                  Hello tout le monde, Je m&apos;appelle {data.fullName}.
+                  J&apos;habite à Paris, C&apos;est d&apos;ici que je design le
+                  future.
                 </h1>
 
                 <div className="flex flex-col gap-y-3 text-zinc-400 leading-relaxed">
