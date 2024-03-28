@@ -1,6 +1,6 @@
 describe('template spec', () => {
     beforeEach("Testing homepage", ()=>{
-      cy.visit("'http://localhost:3000'")
+      cy.visit("http://localhost:3000")
     })
     it('about section link works fine', () => {
       cy.getByData("about").find("a").contains("A propos").click()
