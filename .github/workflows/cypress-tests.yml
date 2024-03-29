@@ -13,3 +13,7 @@ jobs:
         with:
           start: npm run dev
           wait-on: "http://localhost:3000"
+
+      - name: Check test results
+        if: ${{ failure() }}
+        run: exit 1
