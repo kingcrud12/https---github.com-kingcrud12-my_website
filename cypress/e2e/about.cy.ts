@@ -8,4 +8,3 @@ describe('template spec', () => {
       cy.getByData("download").find("a").contains("Download Resumé").click()
     })
   })
-  
