@@ -6,9 +6,11 @@ import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
+let name = "toto";
+
 export const metadata: Metadata = {
   metadataBase: new URL("http://localhost:3000"),
-  title: "Yann DIPITA",
+  title: name,
   description: " this is Yann DIPITA portfolio",
   openGraph: {
     images:
