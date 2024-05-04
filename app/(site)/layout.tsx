@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-let name = "toto";
+let name = "Yann";
 
 export const metadata: Metadata = {
   metadataBase: new URL("http://localhost:3000"),
