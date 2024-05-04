@@ -16,7 +16,7 @@ export default async function About() {
               <div className="order-2 lg:order-none">
                 <h1 className="lg:text-5xl text-4xl lg:leading-tight basis-1/2 font-bold mb-8">
                   Hello tout le monde, Je m&apos;appelle {data.fullName}.
-                  J&apos;habite à London, C&apos;est d&apos;ici que je design le
+                  J&apos;habite à Paris, C&apos;est d&apos;ici que je design le
                   future.
                 </h1>
 
