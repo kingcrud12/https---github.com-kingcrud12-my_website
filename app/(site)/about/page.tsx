@@ -61,8 +61,8 @@ export default async function About() {
             <section className="mt-24 max-w-2xl">
               <h2 className="font-semibold text-4xl mb-4">Expertise</h2>
               <p className="text-zinc-400 max-w-lg">
-                I&apos;ve spent few years working on my skills. In no particular
-                order, here are a few of them.
+                J&apos;passé quelques années à perfectionner mes compétences. En
+                voici quelques-unes, sans ordre particulier.
               </p>
 
               <ul className="flex flex-wrap items-center gap-3 mt-8">
