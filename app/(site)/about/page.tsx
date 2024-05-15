@@ -16,7 +16,7 @@ export default async function About() {
               <div className="order-2 lg:order-none">
                 <h1 className="lg:text-5xl text-4xl lg:leading-tight basis-1/2 font-bold mb-8">
                   Hello tout le monde, Je m&apos;appelle {data.fullName}.
-                  J&apos;habite à Paris, C&apos;est d&apos;ici que je design le
+                  J&apos;habite à London, C&apos;est d&apos;ici que je design le
                   future.
                 </h1>
 
@@ -35,14 +35,13 @@ export default async function About() {
                     quality={100}
                     alt={data.profileImage.alt}
                   />
-                  <li data-test="download">
-                    <a
-                      href={`${data.resumeURL}?dl=${data.fullName}_resume`}
-                      className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center cursor-cell font-medium"
-                    >
-                      <BiFile className="text-base" /> Download Resumé
-                    </a>
-                  </li>
+
+                  <a
+                    href={`${data.resumeURL}?dl=${data.fullName}_resume`}
+                    className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center cursor-cell font-medium"
+                  >
+                    <BiFile className="text-base" /> Download Resumé
+                  </a>
                 </div>
 
                 <ul>
@@ -62,8 +61,8 @@ export default async function About() {
             <section className="mt-24 max-w-2xl">
               <h2 className="font-semibold text-4xl mb-4">Expertise</h2>
               <p className="text-zinc-400 max-w-lg">
-                J&apos;ai passé quelques années à perfectionner mes compétences.
-                En voici quelques-unes, sans ordre particulier.
+                I&apos;ve spent few years working on my skills. In no particular
+                order, here are a few of them.
               </p>
 
               <ul className="flex flex-wrap items-center gap-3 mt-8">

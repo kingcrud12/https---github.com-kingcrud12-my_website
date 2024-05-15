@@ -9,20 +9,20 @@ export default function Navbar() {
         </Link>
         <nav>
           <ul className="flex items-center gap-x-8">
-            <li data-test="about">
+            <li>
               <Link
                 href="/about"
                 className="hover:text-purple-400 duration-300"
               >
-                A propos
+                About
               </Link>
             </li>
-            <li data-test="mes projets">
+            <li>
               <Link
                 href="/projects"
                 className="hover:text-purple-400 duration-300"
               >
-                Mes projets
+                Projects
               </Link>
             </li>
           </ul>
